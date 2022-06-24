@@ -8,8 +8,7 @@ print(matrix)
 
 for i in range(len(matrix)):
     for j in range(len(matrix[i])):
-        j += i
-        matrix[i][j] *= 2
+        matrix[i][i] *= 2
         break
 print(matrix)
 
